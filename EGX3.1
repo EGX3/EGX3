@@ -4,6 +4,7 @@ local defaults; do
         local mouse        = game:GetService("Players").LocalPlayer:GetMouse();
         local inputService = game:GetService('UserInputService');
         local heartbeat    = game:GetService("RunService").Heartbeat;
+        -- // credits to Ririchi / Inori for this cute drag function :)
         function dragger.new(frame)
             local s, event = pcall(function()
                 return frame.MouseEnter
@@ -185,7 +186,7 @@ local defaults; do
                     Text = text;
                     TextSize = 18;
                     Font = Enum.Font.SourceSans;
-                    TextColor3 = Color3.fromRGB(000, 000, 000);
+                    TextColor3 = Color3.fromRGB(255, 255, 255);
                     BackgroundTransparency = 1;
                     TextXAlignment = Enum.TextXAlignment.Left;
                     TextWrapped = true;
@@ -576,7 +577,7 @@ local defaults; do
                             Position = UDim2.new(0, 0, 0, 1);
                             AutoButtonColor = false;
                             Text = "";
-                            BackgroundColor3 = Color3.fromRGB(00, 00, 00);
+                            BackgroundColor3 = Color3.fromRGB(20, 20, 20);
                             BorderSizePixel = 0;
                             ZIndex = 2;
                             TextStrokeTransparency = library.options.textstroke;
@@ -587,7 +588,7 @@ local defaults; do
                             BackgroundTransparency = 0;
                             Position = UDim2.new(0, 0, 0.5, 0);
                             Size     = UDim2.new(1, 0, 0, 1);
-                            BackgroundColor3 = Color3.fromRGB(000, 000, 000);
+                            BackgroundColor3 = Color3.fromRGB(255, 255, 255);
                             BorderSizePixel = 0;
                         });
                     })
@@ -813,7 +814,7 @@ local defaults; do
             local check = library:Create('Frame', {
                 BackgroundTransparency = 1;
                 Size = UDim2.new(1, 0, 0, 25);
-                BackgroundColor3 = Color3.fromRGB(00, 00, 00);
+                BackgroundColor3 = Color3.fromRGB(25, 25, 25);
                 BorderSizePixel = 0;
                 LayoutOrder = self:GetOrder();
                 library:Create('Frame', {
@@ -858,7 +859,7 @@ local defaults; do
                     return
                 end 
                 
-                check:FindFirstChild('dropdown_lbl'):WaitForChild('Selection').TextColor3 = Color3.fromRGB(00, 00, 00);
+                check:FindFirstChild('dropdown_lbl'):WaitForChild('Selection').TextColor3 = Color3.fromRGB(60, 60, 60);
                 check:FindFirstChild('dropdown_lbl'):WaitForChild('Selection').Text = name;
                 local c = 0;
                 for i, v in next, list do
@@ -1007,16 +1008,16 @@ local defaults; do
     end
     
     default = {
-        topcolor       = Color3.fromRGB(00, 255, 00);
-        titlecolor     = Color3.fromRGB(000, 255, 000);
+        topcolor       = Color3.fromRGB(30, 30, 30);
+        titlecolor     = Color3.fromRGB(255, 255, 255);
         
-        underlinecolor = Color3.fromRGB(0, 255, 000);
-        bgcolor        = Color3.fromRGB(00, 255, 00);
-        boxcolor       = Color3.fromRGB(00, 255, 00);
-        btncolor       = Color3.fromRGB(00, 255, 00);
-        dropcolor      = Color3.fromRGB(00, 255, 00);
-        sectncolor     = Color3.fromRGB(00, 255, 00);
-        bordercolor    = Color3.fromRGB(00, 255, 00);
+        underlinecolor = Color3.fromRGB(0, 255, 140);
+        bgcolor        = Color3.fromRGB(35, 35, 35);
+        boxcolor       = Color3.fromRGB(35, 35, 35);
+        btncolor       = Color3.fromRGB(25, 25, 25);
+        dropcolor      = Color3.fromRGB(25, 25, 25);
+        sectncolor     = Color3.fromRGB(25, 25, 25);
+        bordercolor    = Color3.fromRGB(60, 60, 60);
 
         font           = Enum.Font.SourceSans;
         titlefont      = Enum.Font.Code;
@@ -1029,10 +1030,10 @@ local defaults; do
 
         strokecolor    = Color3.fromRGB(0, 0, 0);
 
-        textcolor      = Color3.fromRGB(211, 255, 211);
-        titletextcolor = Color3.fromRGB(211, 255, 211);
+        textcolor      = Color3.fromRGB(255, 255, 255);
+        titletextcolor = Color3.fromRGB(255, 255, 255);
 
-        placeholdercolor = Color3.fromRGB(211, 211, 211);
+        placeholdercolor = Color3.fromRGB(255, 255, 255);
         titlestrokecolor = Color3.fromRGB(0, 0, 0);
     }
 
