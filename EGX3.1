@@ -576,7 +576,7 @@ local defaults; do
                             Position = UDim2.new(0, 0, 0, 1);
                             AutoButtonColor = false;
                             Text = "";
-                            BackgroundColor3 = Color3.fromRGB(20, 20, 20);
+                            BackgroundColor3 = Color3.fromRGB(00, 00, 00);
                             BorderSizePixel = 0;
                             ZIndex = 2;
                             TextStrokeTransparency = library.options.textstroke;
@@ -587,7 +587,7 @@ local defaults; do
                             BackgroundTransparency = 0;
                             Position = UDim2.new(0, 0, 0.5, 0);
                             Size     = UDim2.new(1, 0, 0, 1);
-                            BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+                            BackgroundColor3 = Color3.fromRGB(000, 000, 000);
                             BorderSizePixel = 0;
                         });
                     })
@@ -858,7 +858,7 @@ local defaults; do
                     return
                 end 
                 
-                check:FindFirstChild('dropdown_lbl'):WaitForChild('Selection').TextColor3 = Color3.fromRGB(60, 60, 60);
+                check:FindFirstChild('dropdown_lbl'):WaitForChild('Selection').TextColor3 = Color3.fromRGB(00, 00, 00);
                 check:FindFirstChild('dropdown_lbl'):WaitForChild('Selection').Text = name;
                 local c = 0;
                 for i, v in next, list do
@@ -1007,16 +1007,16 @@ local defaults; do
     end
     
     default = {
-        topcolor       = Color3.fromRGB(30, 30, 30);
-        titlecolor     = Color3.fromRGB(255, 255, 255);
+        topcolor       = Color3.fromRGB(00, 00, 00);
+        titlecolor     = Color3.fromRGB(000, 000, 000);
         
-        underlinecolor = Color3.fromRGB(0, 255, 140);
-        bgcolor        = Color3.fromRGB(35, 35, 35);
-        boxcolor       = Color3.fromRGB(35, 35, 35);
-        btncolor       = Color3.fromRGB(25, 25, 25);
-        dropcolor      = Color3.fromRGB(25, 25, 25);
-        sectncolor     = Color3.fromRGB(25, 25, 25);
-        bordercolor    = Color3.fromRGB(60, 60, 60);
+        underlinecolor = Color3.fromRGB(0, 000, 000);
+        bgcolor        = Color3.fromRGB(00, 00, 00);
+        boxcolor       = Color3.fromRGB(00, 00, 00);
+        btncolor       = Color3.fromRGB(00, 00, 00);
+        dropcolor      = Color3.fromRGB(00, 00, 00);
+        sectncolor     = Color3.fromRGB(00, 00, 00);
+        bordercolor    = Color3.fromRGB(00, 00, 00);
 
         font           = Enum.Font.SourceSans;
         titlefont      = Enum.Font.Code;
@@ -1029,10 +1029,10 @@ local defaults; do
 
         strokecolor    = Color3.fromRGB(0, 0, 0);
 
-        textcolor      = Color3.fromRGB(255, 255, 255);
-        titletextcolor = Color3.fromRGB(255, 255, 255);
+        textcolor      = Color3.fromRGB(211, 211, 211);
+        titletextcolor = Color3.fromRGB(211, 211, 211);
 
-        placeholdercolor = Color3.fromRGB(255, 255, 255);
+        placeholdercolor = Color3.fromRGB(211, 211, 211);
         titlestrokecolor = Color3.fromRGB(0, 0, 0);
     }
 
