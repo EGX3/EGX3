@@ -4,7 +4,6 @@ local defaults; do
         local mouse        = game:GetService("Players").LocalPlayer:GetMouse();
         local inputService = game:GetService('UserInputService');
         local heartbeat    = game:GetService("RunService").Heartbeat;
-        -- // credits to Ririchi / Inori for this cute drag function :)
         function dragger.new(frame)
             local s, event = pcall(function()
                 return frame.MouseEnter
@@ -186,7 +185,7 @@ local defaults; do
                     Text = text;
                     TextSize = 18;
                     Font = Enum.Font.SourceSans;
-                    TextColor3 = Color3.fromRGB(255, 255, 255);
+                    TextColor3 = Color3.fromRGB(355, 355, 355);
                     BackgroundTransparency = 1;
                     TextXAlignment = Enum.TextXAlignment.Left;
                     TextWrapped = true;
