@@ -1,4 +1,4 @@
-   local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
     local Window = Library.CreateLib("EGX3 | KAT", "BloodTheme")
  
     -- MAIN
@@ -282,4 +282,5 @@ end)
 setreadonly(MT, true)
            wait(1000000000000000000)
         end
-    end)
+ end)
+end
