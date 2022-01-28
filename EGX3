@@ -1,18 +1,18 @@
-if game.PlaceId == 621129760 then 
+if game.PlaceId == 621129760 then  --Kat
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EGX3/GAMES/main/KAT', true))()
 end
-if game.PlaceId == 3101667897 then 
+if game.PlaceId == 3101667897 then --Legends Of Speed
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EGX3/GAMES/main/Legends%20Of%20Speed%20%E2%9A%A1', true))()
 end
-if game.PlaceId == 2653064683 then 
+if game.PlaceId == 2653064683 then --Word Bomb
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EGX3/GAMES/main/Word%20bomb', true))()
 end
-if game.PlaceId == 3956818381 then 
+if game.PlaceId == 3956818381 then --Ninja Legends
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EGX3/GAMES/main/Ninja%20Legends', true))()
 end
-if game.PlaceId == 286090429 then 
+if game.PlaceId == 286090429 then --Arsenal
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EGX3/GAMES/main/Arsenal', true))()
 end
-if game.PlaceId == 6284583030 then 
+if game.PlaceId == 6284583030 then --Pet simulator x
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EGX3/GAMES/main/Pet%20simulator%20x', true))()
 end
