@@ -1,5 +1,5 @@
-if game.PlaceId == 621129760 then  --Kat
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/EGX3/GAMES/main/KAT', true))()
+if game.PlaceId == 3527629287 then  --Big PaintBall
+https://raw.githubusercontent.com/EGX3/GAMES/main/BIG%20PAINTBALL
 end
 if game.PlaceId == 3101667897 then --Legends Of Speed
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EGX3/GAMES/main/Legends%20Of%20Speed%20%E2%9A%A1', true))()
